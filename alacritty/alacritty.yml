@@ -34,6 +34,6 @@
   draw_bold_text_with_bright_colors: true
  font:
    normal:
-     family: GohuFont Nerd Font
-     style: Regular
-   size: 10.0
+     family: SauceCodePro Nerd Font
+     style: Bold
+   size: 12.0
