@@ -1,0 +1,39 @@
+# Srcery Colour + Theme
+# Source:https://github.com/srcery-colors/srcery-terminal
+
+ colors:
+  primary:
+    background: "#1C1B19"
+    foreground: "#FCE8C3"
+ 
+  cursor:
+    text:       "#000B1E"
+    cursor:     "#0ABDC6"
+
+  normal:
+    black:      "#1C1B19"
+    red:        "#EF2F27"
+    green:      "#519F50"
+    yellow:     "#FBB829"
+    blue:       "#2C78BF"
+    magenta:    "#E02C6D"
+    cyan:       "#0AAEB3"
+    white:      "#BAA67F"
+
+  bright:
+    black:      "#918715"
+    red:        "#F75341"
+    green:      "#98BC37"
+    yellow:     "#FED06E"
+    blue:       "#68A8E4"
+    magenta:    "#FF5C8F"
+    cyan:       "#2BE4D0"
+    white:      "#FCE8C3"
+
+# Font Settings
+  draw_bold_text_with_bright_colors: true
+ font:
+   normal:
+     family: GohuFont Nerd Font
+     style: Regular
+   size: 10.0
