@@ -2,9 +2,9 @@
 set $mod Mod1
 
 # Set display resolution
-exec_always --no-startup-id arandr --output eDP-1 --mode 1336x768 --rate 59.95
+exec_always --no-startup-id arandr --output DP-4 --mode 3440x1440 --rate 120.00
 
-font pango:Overpass Regular 8
+font pango:SauceCodePro Bold 8
 
 # Press mod key to be able to resize floating windows
 floating_modifier $mod
@@ -16,7 +16,7 @@ bindsym $mod+Return exec alacritty
 bindsym $mod+Shift+q kill
 
 # Open dmenu 
-bindsym $mod+d exec dmenu_run -fn 'Gohu Font Nerd Font:pixelsize=15' -l 3 -nf '#707880' -sf '#cc6666' -nb '#1d1f21' -sb '#1d1f21'
+bindsym $mod+d exec dmenu_run -fn 'SauceCodePro Nerd Font:pixelsize=20' -l 2 -nf '#707880' -sf '#cc6666' -nb '#1d1f21' -sb '#1d1f21'
 
 # Lock Screen
 bindsym $mod+Shift+l exec /usr/local/bin/lock_and_blur.sh
