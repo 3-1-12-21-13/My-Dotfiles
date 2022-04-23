@@ -1,0 +1,38 @@
+call plug#begin('~/.vim/plugged')
+
+" Fugitive Vim Github Wrapper
+Plug 'tpope/vim-fugitive'
+
+" Adds Tree-Style File Manager to Vim
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+
+" Adds Syntax Highlighting based on file type in Nerd Tree.
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'ryanoasis/vim-devicons'
+
+" Enables NERDTree to open, delete, move, or copy multiple Visually-selected files at once.
+Plug 'PhilRunninger/nerdtree-visual-selection'
+
+" Adds Color Examples to Vim Files if in Hex
+Plug 'lilydjwg/colorizer'
+
+" Goyo Mode
+Plug 'junegunn/goyo.vim'
+
+" Allows you to press gcc or gc to comment out a line/section in Visual Mode
+Plug 'tpope/vim-commentary'
+
+" Intergrates fzf with Vim. Honestly, I need to read up so much more on these
+" as they both have massive potential.
+Plug 'junegunn/fzf.vim'
+
+" Adds Jedi-Vim as an autocomplete tool for Python Code Editing.
+Plug 'davidhalter/jedi-vim'
+
+" Adds the airline? We'll see...
+Plug 'vim-airline/vim-airline'
+
+" Adds Git to Vim.
+Plug 'airblade/vim-gitgutter'
+
+call plug#end()
