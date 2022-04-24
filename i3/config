@@ -4,7 +4,7 @@ set $mod Mod1
 # Set display resolution
 exec_always --no-startup-id arandr --output DP-4 --mode 3440x1440 --rate 120.00
 
-font pango:SauceCodePro Bold 8
+font pango:Overpass 8
 
 # Press mod key to be able to resize floating windows
 floating_modifier $mod
@@ -178,8 +178,8 @@ bindsym XF86AudioPrev exec playerctl previous
 
 # Adding Gaps
 # smart_gaps off
-gaps inner 10
-gaps outer 10
+gaps inner 20
+gaps outer 20
 
 # Background
 exec --no-startup-id nitrogen --restore
