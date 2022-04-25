@@ -1,34 +1,34 @@
-# Srcery Colour + Theme
-# Source:https://github.com/srcery-colors/srcery-terminal
+# My Own Frankenstein theme.
+# Mixture or Srcery, Aura & other bits I like.
 
  colors:
   primary:
-    background: "#1C1B19"
-    foreground: "#FCE8C3"
+    background: "#15141b"
+    foreground: "#edecee"
  
   cursor:
-    text:       "#000B1E"
-    cursor:     "#0ABDC6"
+    text:       "#edecee"
+    cursor:     "#14a76c"
 
   normal:
-    black:      "#1C1B19"
-    red:        "#EF2F27"
-    green:      "#519F50"
-    yellow:     "#FBB829"
-    blue:       "#2C78BF"
-    magenta:    "#E02C6D"
-    cyan:       "#0AAEB3"
-    white:      "#BAA67F"
+    black:      "#110f18"
+    red:        "#Ff6767"
+    green:      "#918715"
+    yellow:     "#ffca85"
+    blue:       "#5ab9ea"
+    magenta:    "#e02c6d"
+    cyan:       "#61ffca"
+    white:      "#edecee"
 
   bright:
-    black:      "#918715"
-    red:        "#F75341"
-    green:      "#98BC37"
-    yellow:     "#FED06E"
-    blue:       "#68A8E4"
-    magenta:    "#FF5C8F"
-    cyan:       "#2BE4D0"
-    white:      "#FCE8C3"
+    black:      "#4d4d4d"
+    red:        "#Ff652f"
+    green:      "#61ffca"
+    yellow:     "#FFE400"
+    blue:       "#5ab9ea"
+    magenta:    "#A277FF"
+    cyan:       "#2be4d0"
+    white:      "#EDECEE"
 
 # Font Settings
   draw_bold_text_with_bright_colors: true
